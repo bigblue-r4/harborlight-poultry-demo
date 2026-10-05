@@ -4,6 +4,8 @@ A 30-second, self-contained run of the Harborlight witness against a simulated p
 It uses the real witness store, tailer and farm feed. Everything happens locally in a temporary
 directory: no network, no background services, nothing installed.
 
+**No Go handy? [Try it in your browser →](https://bigblue-r4.github.io/sgail-playground/witness/#full)** The same witness checks on one night's log from house 3: edit, delete or cut off entries, or re-sign the head, and see what's caught.
+
 Needs [Go](https://go.dev/dl/) 1.22 or newer. Then:
 
 ```
