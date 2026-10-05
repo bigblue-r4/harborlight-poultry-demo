@@ -13,7 +13,7 @@ SHA=$(git -C "$KISS" rev-parse --short "$REF^{commit}")
 HERE=$(cd "$(dirname "$0")/.." && pwd)
 
 FILES="
-internal/store/store.go internal/store/log_test.go internal/store/fuzz_test.go internal/store/treehead_missing_test.go
+internal/store/store.go internal/store/log_test.go internal/store/fuzz_test.go internal/store/treehead_missing_test.go internal/store/treehead_signer_test.go
 internal/farm/farm.go internal/farm/farm_test.go internal/farm/testdata/farm_events.jsonl
 internal/pipelock/tailer.go internal/pipelock/ident_unix.go internal/pipelock/ident_other.go internal/pipelock/openinfo.go
 internal/pipelock/evidence_tailer.go internal/pipelock/tailer_test.go internal/pipelock/evidence_tailer_test.go internal/pipelock/tailer_resume_test.go
